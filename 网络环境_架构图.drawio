@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T06:42:49.787Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="YFWSGNiNnt5uq-jPIWdg" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T06:47:38.085Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="BRcERuyYylGNV0ZEHB1g" version="14.4.3" type="github">
   <diagram id="jo6dDh-TMifwt6ElA-1v" name="第 1 页">
-    <mxGraphModel dx="1426" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="R72ijSZJWarf941itJiW-1" value="网络安全智能博弈实验平台" style="rounded=1;" vertex="1" parent="1">
+        <mxCell id="R72ijSZJWarf941itJiW-1" value="网络环境自动生成系统" style="rounded=1;" vertex="1" parent="1">
           <mxGeometry x="312" y="110" width="176" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R72ijSZJWarf941itJiW-2" value="网络环&#xa;境自动&#xa;生成系&#xa;统" style="rounded=1;" vertex="1" parent="1">
+        <mxCell id="R72ijSZJWarf941itJiW-2" value="随机网络&#xa;结构生成&#xa;系统" style="rounded=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="210" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="R72ijSZJWarf941itJiW-3" value="策略训&#xa;练学习&#xa;系统" style="rounded=1;" vertex="1" parent="1">
