@@ -1,14 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T07:06:25.573Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="LPzx--HRnnI3TAKKMr4C" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T07:13:25.771Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="TtI2KKmdkMDfVp4ZEOKg" version="14.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="SRTPYMTSmegyvFIhycet-0" value="文本型&#xa;参数数据" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="50" width="60" height="80" as="geometry" />
+          <mxGeometry x="70" y="50" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SRTPYMTSmegyvFIhycet-1" value="表格型&#xa;参数数据" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="50" width="60" height="80" as="geometry" />
+          <mxGeometry x="170" y="50" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SRTPYMTSmegyvFIhycet-2" value="" style="endArrow=none;dashed=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="89.5" as="sourcePoint" />
+            <mxPoint x="170" y="89.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SRTPYMTSmegyvFIhycet-3" value="" style="shape=partialRectangle;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="140" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="SRTPYMTSmegyvFIhycet-4" value="" style="endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SRTPYMTSmegyvFIhycet-3" target="SRTPYMTSmegyvFIhycet-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="150" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="170" />
+              <mxPoint x="190" y="170" />
+              <mxPoint x="220" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SRTPYMTSmegyvFIhycet-5" value="手动输入&#xa;数据" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="50" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SRTPYMTSmegyvFIhycet-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SRTPYMTSmegyvFIhycet-5" target="SRTPYMTSmegyvFIhycet-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="220" as="sourcePoint" />
+            <mxPoint x="310" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="170" />
+              <mxPoint x="220" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SRTPYMTSmegyvFIhycet-7" value="参数加载系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SRTPYMTSmegyvFIhycet-9" value="" style="endArrow=classic;html=1;entryX=-0.007;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SRTPYMTSmegyvFIhycet-7" target="SRTPYMTSmegyvFIhycet-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="213" as="sourcePoint" />
+            <mxPoint x="320" y="213" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="210" />
+              <mxPoint x="340" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SRTPYMTSmegyvFIhycet-10" value="读取到的数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="160" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
