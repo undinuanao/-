@@ -1,11 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T06:41:15.448Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Tdn_0ikw_7LA_mFNAV2A" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T06:51:07.529Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Logrzw2xhYmZpUdisvY9" version="14.4.4" type="github">
   <diagram id="Jb9UfU5ofmXKPib7j-dm" name="第 1 页">
-    <mxGraphModel dx="1426" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="679" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="H6227RDKsNIXEPaSkg0y-1" value="进入界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H6227RDKsNIXEPaSkg0y-1" value="进入界面" style="rounded=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-2" value="读取网络&#xa;环境数据" style="rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-3" value="生成网络&#xa;对抗场景" style="rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-5" value="选择视角" style="rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-8" value="进攻方视角" style="rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-9" value="防守方视角" style="rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-10" value="全局视角" style="rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-11" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-12" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H6227RDKsNIXEPaSkg0y-5" target="H6227RDKsNIXEPaSkg0y-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="365" as="sourcePoint" />
+            <mxPoint x="220" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-13" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H6227RDKsNIXEPaSkg0y-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="370" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-15" value="对抗模拟&#xa;实时渲染" style="rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="345" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-16" value="修改参数？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="345" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="H6227RDKsNIXEPaSkg0y-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="364.76" as="sourcePoint" />
+            <mxPoint x="485" y="364.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="H6227RDKsNIXEPaSkg0y-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="385" as="sourcePoint" />
+            <mxPoint x="535" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6227RDKsNIXEPaSkg0y-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H6227RDKsNIXEPaSkg0y-18">
+          <mxGeometry x="-0.1782" y="1" relative="1" as="geometry">
+            <mxPoint x="-14" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
