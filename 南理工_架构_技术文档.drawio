@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2021-04-01T03:17:21.117Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="LusuZxEBM7TjywziLxPx" version="14.4.9" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1188" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="40f9CmQFQ04lGPyyj_lo-0" value="网络安全&#xa;智能博弈&#xa;实验平台" style="rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="150" y="140" width="86" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="40f9CmQFQ04lGPyyj_lo-1" value="攻防网络空间构建功能" style="rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C66YBH70qFbZv3LZ_Hi1-1" value="" style="strokeWidth=2;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="236" y="55" width="46" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="C66YBH70qFbZv3LZ_Hi1-2" value="攻防智能体训练功能" style="rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="90" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C66YBH70qFbZv3LZ_Hi1-3" value="攻防环境配置功能" style="rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="140" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C66YBH70qFbZv3LZ_Hi1-4" value="攻防演示功能" style="rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="190" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C66YBH70qFbZv3LZ_Hi1-5" value="攻防评估功能" style="rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="240" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
