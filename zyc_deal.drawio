@@ -1,95 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T06:35:52.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="4O81LjpnsjRfXQNqgbp6" version="14.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-26T06:41:09.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="u_Gief2vej0XsdhmxaOV" version="14.5.4" type="github">
   <diagram id="-IiyH1JpHtYOSdr7Pda1" name="第 1 页">
     <mxGraphModel dx="983" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-1" value="RGB-D相机" style="rounded=0;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="60" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-1" value="双目相机" style="rounded=0;whiteSpace=wrap;fontSize=13;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-2" value="" style="endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-1" target="jm9YjNPjTmD55RnAh6pX-4">
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-2" value="" style="endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;fontSize=13;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-1" target="jm9YjNPjTmD55RnAh6pX-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="320" as="sourcePoint" />
             <mxPoint x="240" y="280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="280" />
-              <mxPoint x="230" y="230" />
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="240" />
+              <mxPoint x="250" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-4" value="彩色图" style="rounded=0;whiteSpace=wrap;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="260" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-4" value="左右视图" style="rounded=0;whiteSpace=wrap;fontSize=13;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270.34" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-6" value="深度图" style="rounded=0;whiteSpace=wrap;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="260" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-10" value="点云生成" style="rounded=0;whiteSpace=wrap;fontSize=13;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-7" value="" style="endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-1" target="jm9YjNPjTmD55RnAh6pX-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="290" as="sourcePoint" />
-            <mxPoint x="270" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="230" y="280" />
-              <mxPoint x="230" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-8" value="深度图空洞修复" style="rounded=0;whiteSpace=wrap;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="440" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-9" value="" style="endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jm9YjNPjTmD55RnAh6pX-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="340" as="sourcePoint" />
-            <mxPoint x="480" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-10" value="点云生成" style="rounded=0;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="650" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-11" value="" style="endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-4" target="jm9YjNPjTmD55RnAh6pX-10">
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-11" value="" style="endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;fontSize=13;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-4" target="jm9YjNPjTmD55RnAh6pX-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="190" as="sourcePoint" />
-            <mxPoint x="550" y="110" as="targetPoint" />
+            <mxPoint x="600" y="150" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="230" />
-              <mxPoint x="600" y="280" />
+              <mxPoint x="400" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-12" value="" style="endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-8" target="jm9YjNPjTmD55RnAh6pX-10">
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-19" value="神经&lt;br style=&quot;font-size: 13px;&quot;&gt;网络" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;html=1;" vertex="1" connectable="0" parent="jm9YjNPjTmD55RnAh6pX-11">
+          <mxGeometry x="0.0057" y="-1" relative="1" as="geometry">
+            <mxPoint x="-0.34000000000000163" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-13" value="多帧点云配准&lt;br style=&quot;font-size: 13px;&quot;&gt;及融合" style="rounded=0;whiteSpace=wrap;fontSize=13;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-14" value="" style="endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;html=1;fontSize=13;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-10" target="jm9YjNPjTmD55RnAh6pX-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="350" as="sourcePoint" />
-            <mxPoint x="480" y="350" as="targetPoint" />
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="470" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-15" value="目标分割与融合" style="rounded=0;whiteSpace=wrap;fontSize=13;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-16" value="" style="endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;html=1;fontSize=13;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-13" target="jm9YjNPjTmD55RnAh6pX-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="280" as="sourcePoint" />
+            <mxPoint x="770" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-17" value="室内三维场景及&lt;br style=&quot;font-size: 13px;&quot;&gt;独立个体曲面重建" style="rounded=0;fontSize=13;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260.34" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-18" value="" style="endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;html=1;fontSize=13;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-15" target="jm9YjNPjTmD55RnAh6pX-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="440" as="sourcePoint" />
+            <mxPoint x="600" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-20" value="深度图" style="rounded=0;whiteSpace=wrap;fontSize=13;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jm9YjNPjTmD55RnAh6pX-21" value="" style="endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;fontSize=13;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-20" target="jm9YjNPjTmD55RnAh6pX-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="240" y="290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="340" />
               <mxPoint x="600" y="280" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-13" value="多帧点云配准及融合" style="rounded=0;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="650" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-14" value="" style="endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-10" target="jm9YjNPjTmD55RnAh6pX-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="350" as="sourcePoint" />
-            <mxPoint x="480" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-15" value="目标分割与融合" style="rounded=0;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="470" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-16" value="" style="endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-13" target="jm9YjNPjTmD55RnAh6pX-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="770" y="320" as="sourcePoint" />
-            <mxPoint x="770" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-17" value="室内三维场景及独立个体曲面重建" style="rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jm9YjNPjTmD55RnAh6pX-18" value="" style="endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jm9YjNPjTmD55RnAh6pX-15" target="jm9YjNPjTmD55RnAh6pX-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="480" as="sourcePoint" />
-            <mxPoint x="600" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
