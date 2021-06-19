@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-06-19T07:35:19.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" version="14.8.0" etag="dPP8nZq_b7OQZJLn2jmg" type="github"><diagram id="ppoAcKlxX3kwHhm_-xjA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-19T07:39:18.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="WHjjkPYGXblA-uKrebrA" version="14.8.0" type="github">
+  <diagram id="ppoAcKlxX3kwHhm_-xjA" name="Page-1">
+    <mxGraphModel dx="700" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0FjQryOPYZsFRXdAAh8D-1" value="数据采集层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0FjQryOPYZsFRXdAAh8D-2" value="数据融处理平台层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="290" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0FjQryOPYZsFRXdAAh8D-3" value="应用层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="450" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0FjQryOPYZsFRXdAAh8D-4" value="数据采集层包括：点钞机、验钞机、纸币清分机、ATM、CRS、TCR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0FjQryOPYZsFRXdAAh8D-5" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0FjQryOPYZsFRXdAAh8D-6" value="内在计算、流式计算、MapReduce" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="285" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
