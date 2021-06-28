@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T08:45:38.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="tdMtUxkbpYicuuDEorkA" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-28T08:47:05.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="_BV2zib7NjhAETnQbm-a" version="14.8.1" type="github">
   <diagram id="KAZm05Sm-PhzG9RKhNph" name="Page-1">
     <mxGraphModel dx="611" dy="324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,9 +60,30 @@
             <mxPoint x="180" y="410" as="sourcePoint" />
             <mxPoint x="230" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="205" y="350" />
-              <mxPoint x="414" y="350" />
+              <mxPoint x="205" y="380" />
+              <mxPoint x="310" y="380" />
+              <mxPoint x="414" y="380" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gXMjl1y4tyzaUeLnTLn-16" value="状态s，动作a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1gXMjl1y4tyzaUeLnTLn-15">
+          <mxGeometry x="0.4045" y="1" relative="1" as="geometry">
+            <mxPoint x="-32" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gXMjl1y4tyzaUeLnTLn-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gXMjl1y4tyzaUeLnTLn-2" target="1gXMjl1y4tyzaUeLnTLn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="650" as="sourcePoint" />
+            <mxPoint x="470" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="590" />
+              <mxPoint x="205" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gXMjl1y4tyzaUeLnTLn-18" value="状态s&#39;，奖励r" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1gXMjl1y4tyzaUeLnTLn-17">
+          <mxGeometry x="-0.3576" y="1" relative="1" as="geometry">
+            <mxPoint x="-28" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
